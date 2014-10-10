@@ -2,16 +2,23 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	   <link rel="stylesheet" href="css/bootstrap.css">
+	   <link rel="stylesheet" href="css/bootstrap-theme.css">
+	   <script src ="js/bootstrap.js"></script>
 	<title>PaginaWeb</title>
 	<!--Pacheco Perez Juan Martin-->
 		<style>		
 			header{
-			   background-color:#e95644;
+			   background-color: #343434;
+				border-top: 6px solid #e95644;
+				border-bottom: 6px solid #e95644;
 			   color:white;
+			   height: 110px;
 			}
 			footer{
 				background-color: #343434;
 				border-top: 6px solid #e95644;
+				border-bottom: 6px solid #e95644;
 				color:white;
 				padding: 30px;
 			}
@@ -27,12 +34,13 @@
 			   display: inline-block;
 			   width:33%;
 			}
-			#menu{
+			#menus{
 				background-color: #123456;
 				display: inline-block;
 				width: 68%;
+				font-size: 30px;
 			}
-			#menu li{
+			#menus li{
 				display: inline-block;
 			} 
 			#inicio{
@@ -50,26 +58,27 @@
 				background-position: center center;
 				background-attachment: fixed;
 				color:white;
-				height: 500px;
+				height: 600px;
 				/*para el tamaño de letra */
 				font-size: 40px;
 				/*para centrar horizontalmente*/
 				line-height: 500px;
 				text-align: center;
+				border-bottom: 6px solid #e95644;
 			}
 
 		</style>
 	</head>
-	<body>
+	<body style="background-color:#343434">
 		<header>
 			<div id="inicio">
 				<h1>Temas</h1>
 				<h6>by JMP</h6>
 			</div>
-			<nav id="menu">
+			<nav id="menus">
 				<ul>
 					<li>Peliculas</li>
-         	        <li>Flores</li>
+         	        <li>Dibujos</li>
          	        <li>Carros</li>
 				</ul>
 			</nav>
@@ -77,50 +86,19 @@
 		<section id="presentacion">
 			página multimedia
 		</section>
-		<section>
-			<article>
-			<header>
-				<h1>Tablas</h1>
-			</header>
-			<table border="5" cellspacing="10" cellpading="10" bgcolor="black" frame="above" name="tabla1" class="servicio">
-			    <thead bgcolor="yellow"> <!--encabezado para la tabla-->
-				    <th >Peliculas</th>
-			    </thead>
-			    <tbody>
-				    <tr>
-					    <td><img src="img/14.jpg" alt="alguna pelicula" WIDTH="600px" HEIGHT="300px"/></td>
-				    </tr>			
-			    </tbody>                 
-		    </table>
-		    <br>
-		    <table border="5" cellspacing="10" cellpading="10" bgcolor="black" frame="above" name="tabla2" class="servicio">
-			    <thead bgcolor="yellow"> <!--encabezado para la tabla-->
-				    <th >Flores</th>
-			    </thead>
-			    <tbody>
-				    <tr>
-					    <td><img src="img/flores.jpg" alt="algunas flores" WIDTH="600px" HEIGHT="300px"/></td>
-				    </tr>			
-			    </tbody>                 
-		    </table>
-		    <br>
-		    <table border="5" cellspacing="10" cellpading="10" bgcolor="black" frame="above" name="tabla3" class="servicio">
-			    <thead bgcolor="yellow"> <!--encabezado para la tabla-->
-				    <th >Carros</th>
-			    </thead>
-			    <tbody>
-				    <tr>
-					    <td><img src="img/modelos.jpg" alt="algunas carcachas" WIDTH="600px" HEIGHT="300px"/></td>
-				    </tr>			
-			    </tbody>                 
-		    </table>
-		</section>	
+		    <section class="menu">
+		<ul class="nav nav-pills nav-stacked">
+	  		<li><a href="temas.html">Temas</a></li>
+	  		<li><a href="acercade.html">Acerca de </a></li>
+	  		<li><a href="contacto.html">Contacto </a></li>
+		</ul>
+	</section>
 		<footer>
 			<div class="parte-inferior">
 				<h3>Sigueme</h3>
 				<div>
-					<a href=""><img src="img/facebook.png"/></a>
-					<a href=""><img src="img/google.png"/></a>
+					<a href="http://fb.com"><img src="img/facebook.png"/></a>
+					<a href="http://www.gmail.com"><img src="img/google.png"/></a>
 					<a href="https://twitter.com/jmartinpacheco"><img src="img/twitter.png"/></a>
 				</div>
 			</div>
@@ -136,10 +114,8 @@
 				<h3>Powered by:</h3>
 				<ul>
 					<li>
-						<a href="">JMartin</a>
-					</li>
-					<li>
-						<a href="">Proteco</a>
+						<br>
+						<iframe src="http://proteco.fi-b.unam.mx" width=400 height=200></iframe>
 					</li>
 				</ul>
 			</div>
