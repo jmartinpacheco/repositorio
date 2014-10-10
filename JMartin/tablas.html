@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PaginaWeb</title>
+	<!--Pacheco Perez Juan Martin-->
+		<style>		
+			header{
+			   background-color:#e95644;
+			   color:white;
+			}
+			footer{
+				background-color: #343434;
+				border-top: 6px solid #e95644;
+				color:white;
+				padding: 30px;
+			}
+			.servicio{
+				color:red;
+				display: inline-block;
+				padding-top:20px; 
+				padding-bottom: 20px;
+				text-align: center;				
+				width:33%;
+			}
+			.parte-inferior{
+			   display: inline-block;
+			   width:33%;
+			}
+			#menu{
+				background-color: #123456;
+				display: inline-block;
+				width: 68%;
+			}
+			#menu li{
+				display: inline-block;
+			} 
+			#inicio{
+			   background-color: #345;
+			   display: inline-block;
+			   padding-left: 20px;
+			   vertical-align: top;
+			   width: 29%;	
+			}
+			#presentacion{
+				background-image: url("img/portada6.jpg");
+				background-repeat: no-repeat;
+				/*estira la imagen de fondo*/
+				background-size: cover;
+				background-position: center center;
+				background-attachment: fixed;
+				color:white;
+				height: 500px;
+				/*para el tamaño de letra */
+				font-size: 40px;
+				/*para centrar horizontalmente*/
+				line-height: 500px;
+				text-align: center;
+			}
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<div id="inicio">
+				<h1>Temas</h1>
+				<h6>by JMP</h6>
+			</div>
+			<nav id="menu">
+				<ul>
+					<li>Peliculas</li>
+         	        <li>Flores</li>
+         	        <li>Carros</li>
+				</ul>
+			</nav>
+		</header>
+		<section id="presentacion">
+			página multimedia
+		</section>
+		<section>
+			<article>
+			<header>
+				<h1>Tablas</h1>
+			</header>
+			<table border="5" cellspacing="10" cellpading="10" bgcolor="black" frame="above" name="tabla1" class="servicio">
+			    <thead bgcolor="yellow"> <!--encabezado para la tabla-->
+				    <th >Peliculas</th>
+			    </thead>
+			    <tbody>
+				    <tr>
+					    <td><img src="img/14.jpg" alt="alguna pelicula" WIDTH="600px" HEIGHT="300px"/></td>
+				    </tr>			
+			    </tbody>                 
+		    </table>
+		    <br>
+		    <table border="5" cellspacing="10" cellpading="10" bgcolor="black" frame="above" name="tabla2" class="servicio">
+			    <thead bgcolor="yellow"> <!--encabezado para la tabla-->
+				    <th >Flores</th>
+			    </thead>
+			    <tbody>
+				    <tr>
+					    <td><img src="img/flores.jpg" alt="algunas flores" WIDTH="600px" HEIGHT="300px"/></td>
+				    </tr>			
+			    </tbody>                 
+		    </table>
+		    <br>
+		    <table border="5" cellspacing="10" cellpading="10" bgcolor="black" frame="above" name="tabla3" class="servicio">
+			    <thead bgcolor="yellow"> <!--encabezado para la tabla-->
+				    <th >Carros</th>
+			    </thead>
+			    <tbody>
+				    <tr>
+					    <td><img src="img/modelos.jpg" alt="algunas carcachas" WIDTH="600px" HEIGHT="300px"/></td>
+				    </tr>			
+			    </tbody>                 
+		    </table>
+		</section>	
+		<footer>
+			<div class="parte-inferior">
+				<h3>Sigueme</h3>
+				<div>
+					<a href=""><img src="img/facebook.png"/></a>
+					<a href=""><img src="img/google.png"/></a>
+					<a href="https://twitter.com/jmartinpacheco"><img src="img/twitter.png"/></a>
+				</div>
+			</div>
+			<div class="parte-inferior">
+				<h3>Inscribete para mas notificaciones</h3>
+				<form>
+					<label>Email: </label>
+					<input type="email" name="miemail" id="miemail" placeholder="Escribir aqui">
+					<input type="submit" value="enviar">
+				</form>
+			</div>
+			<div class="parte-inferior">
+				<h3>Powered by:</h3>
+				<ul>
+					<li>
+						<a href="">JMartin</a>
+					</li>
+					<li>
+						<a href="">Proteco</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>
