@@ -7,6 +7,7 @@
 	<title>PaginaWeb</title>
 	<!--Pacheco Perez Juan Martin-->
 	</head>
+
 	<style>
    		#presentacion{
 				background-image: url("img/portada6.jpg");
@@ -25,29 +26,63 @@
 				border-bottom: 6px solid #e95644;
 			}
 	</style>
+
 	<body style="background-color:#343434">
+
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color:#343434">
+  			<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" datatoggle="collapse" data-targer="#bs-example-navbar-collapse-1">
+					<span class="icon-bar"><a href="temas.html"></a></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="temas.html" class="navbar-brand"><img src="img/5.png" height="16" width="16" > TemasInteresantes</a>
+			</div>
+
+			<p class="navbar-text navbar-right">hola desde pagina</p>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="acercade.html">Acerca de</a></li>
+					<li><a href="temas.html">Temas</a></li>
+				</ul>
+			</div>
+
+		</div>
+		</nav>
+
 		<header>
-			<div id="inicio">
+			<!--<div id="inicio">
 				<h1>Temas</h1>
 				<h6>by JMP</h6>
 			</div>
-			<nav id="menus">
+
+			<div>
+				<nav id="menus">
 				<ul>
 					<li>Peliculas</li>
          	        <li>Dibujos</li>
          	        <li>Carros</li>
 				</ul>
 			</nav>
+			</div>-->
+			
 		</header>
+
 		<section id="presentacion">
 			página multimedia
 		</section>
-		    <section class="menu">
-		<ul class="nav nav-pills nav-stacked">
-	  		<li><a href="temas.html">Temas</a></li>
-	  		<li><a href="acercade.html">Acerca de </a></li>
-		</ul>
-	</section>
+
+        <!--<div >
+        	<section class="menu">
+			<ul class="nav nav-pills nav-stacked">
+	  			<li><a href="temas.html">Temas</a></li>
+	  			<li><a href="acercade.html">Acerca de </a></li>
+			</ul>
+		</section>
+        </div>-->
+
 		<footer>
 			<div class="parte-inferior">
 				<h3>Sigueme</h3>
@@ -57,6 +92,7 @@
 					<a href="https://twitter.com/jmartinpacheco"><img src="img/twitter.png"/></a>
 				</div>
 			</div>
+
 			<div class="parte-inferior">
 				<h3>Inscribete para mas notificaciones</h3>
 				<form>
@@ -65,6 +101,7 @@
 					<input type="submit" value="enviar">
 				</form>
 			</div>
+
 			<div class="parte-inferior">
 				<h3>Powered by:</h3>
 				<ul>
@@ -74,6 +111,7 @@
 					</li>
 				</ul>
 			</div>
+
 		</footer>
 	</body>
 </html>
