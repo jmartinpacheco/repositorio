@@ -49,7 +49,7 @@ header{
 			   vertical-align: top;
 			   width: 29%;	
 			}
-			#presentacion{
+			.presentacion{
 				background-image: url("img/portada6.jpg");
 				background-repeat: no-repeat;
 				/*estira la imagen de fondo*/
