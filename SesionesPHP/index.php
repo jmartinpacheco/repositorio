@@ -11,7 +11,7 @@
 		<div class="col-md-2">		
 		</div>
 
-		<div class="col-md-8">
+		<div class="col-md-4">
 			<form action="validar.php" id="uno" name="form1" method="post">
 			<legend>login</legend>
 				<input type="hidden" name="priv" value="1">
