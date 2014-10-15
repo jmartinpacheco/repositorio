@@ -1132,6 +1132,9 @@ mark,
   padding: .2em;
   background-color: #fcf8e3;
 }
+.text-white{
+  color:#ffffff ;
+}
 .text-left {
   text-align: left;
 }
