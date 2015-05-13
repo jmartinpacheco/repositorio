@@ -1,1 +1,12 @@
 prueba de git & github
+
+git status 	vemos lo nuevo en repositorio
+git add .
+git commit -am "comentario"
+
+git config --global user.email Correo
+git config --global user.name "Nombre"
+
+git push
+
+git pull	  
